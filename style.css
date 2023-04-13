@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+section 
+{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+img 
+{
+    width: 100%;
+    max-width: 100%;   
+}
+
+.container
+{
+    width: 1046px;
+    margin: 0 auto;
+
+}
+
+
+/* color  */
+.w3-grey
+{
+background: #C4C4C4;
+border-radius: 12px;
+width: 236.85px;
+height: 9.6px;
+}
+
+.w3-blue
+{
+width: 155.77px;
+height: 9.6px;
+background: #2F80ED;
+border-radius: 12px;
+}
+/*################################### Profile  */
+.head__container
+{
+width: 1046px;
+padding: 1.5rem;
+background: #FFFFFF;
+border-radius: 12px;
+display: flex;
+gap: 3rem;
+}
+.head__container img 
+{
+    width: 422px;
+    height: 310px;
+    border-radius: 12px;
+}
+.profile
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.profile__details
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.profile__left h2  
+{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #4F4F4F;
+
+
+}
+
+.profile__left small
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height */
+
+/* Gray 3 */
+color: #828282;
+
+
+}
+.profile__right
+{
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+}
+.profile__right a
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px!important;
+line-height: 22px;
+color: #4F4F4F!important;
+
+
+}
+.profile__right i  
+{
+    margin-right: 10px;
+}
+.profile p 
+{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+margin-top: 20px;
+/* Gray 3 */
+color: #828282;
+}
+/*################################### Content  */
+
+.content__container {
+display: grid;
+grid-template-areas:
+"skills__card  blog__card"
+"hobby__card   blog__card"
+"hobby__card   experience__card"
+"hobby__card   experience__card";
+grid-template-columns: 33%;
+gap: 7rem;
+
+}
+
+/*################################### Skill Content  */
+.skills__card 
+{
+grid-area: skills__card;
+width: 415.02px;
+height: 303px;
+padding: 1.3rem;
+background: #FFFFFF;
+border-radius: 12px;
+margin-bottom: -6rem;
+}
+.skills__card h3 
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #4F4F4F;
+margin-bottom: 2rem;
+}
+
+.skill__box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.skill__details
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
+/*################################### Blog Content  */
+.blog__card 
+{
+grid-area: blog__card;
+width: 596px;
+height: 656px;
+padding: 1.3rem;
+background: #FFFFFF;
+border-radius: 12px;
+margin-bottom: -6rem;
+}
+
+.blog__card p
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+    margin-bottom: 3rem;
+}
+.lead 
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #828282!important;
+
+
+}
+
+.blog__center 
+{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.blog__center h2 
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+width: 178px;
+line-height: 29px;
+color: #333333;
+}
+
+.blog__card a 
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+/* identical to box height */
+
+color: #2F80ED;
+}
+.blog__center img 
+{
+    width: 396px;
+height: 321px;
+border-radius: 12px;
+}
+/*################################### Hobby Content  */
+.hobby__card 
+{
+grid-area: hobby__card;
+width: 415px;
+height: 836px;
+padding: 1.3rem;
+background: #FFFFFF;
+border-radius: 12px;
+}
+.hobby__card h2 
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+    margin-bottom: 3rem;
+}
+
+.hobby__card img 
+{
+    width: 398.02px;
+    height: 139px;
+    object-fit: cover;
+border-radius: 12px;
+}
+.hobbies__box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.hobbies__box p 
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #333333;
+}
+.hobbies__box small
+{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 3rem;
+color: #828282;
+
+
+}
+/*################################### experience Content  */
+.experience__card
+{
+    grid-area: experience__card;
+    width: 592px;
+    height: 482px;
+padding: 1.3rem;
+background: #FFFFFF;
+border-radius: 12px;
+}
+
+
+.experience__card h2 
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+    margin-bottom: 3rem;
+}
+.experience__box img 
+{
+    width: 100px;
+height: 74px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.experience__box
+{
+    display: flex;
+    gap: 3rem;
+ 
+}
+.brand__detalis 
+{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-self: center;
+}
+.brand__detalis small 
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #828282;
+}
+.brand__detalis h5 
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #333333;
+margin-bottom: 2rem;
+
+}
+.brand__detalis p 
+{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 3rem;
+color: #828282;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Copyright  */
+ .copyright__container
+{
+width: 100%;
+text-align: center;
+background: transparent;
+color:#000;
+}
+.copyright__container p
+{
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+
+text-align: center;
+
+color: #7c7b7b;
+
+
+}
+.copyright__container strong 
+{
+text-decoration: underline;
+} 

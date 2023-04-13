@@ -1,0 +1,135 @@
+
+/* ##########################   Media Queries  (Mobile)
+############################*/
+@media  screen and (max-width:600px)
+
+{
+
+section 
+{
+    padding: 5rem 0;
+}
+
+
+.container
+{
+    width: 96%;
+}
+
+.head__container
+{
+    flex-direction: column;
+}
+.profile p
+{
+    font-size: 14px;
+}
+.profile__left h2 
+{
+    font-size: 19px;
+}
+.profile__right
+{
+    gap:2px;
+}
+.profile__left small
+{
+    font-size: 14px;
+}
+
+.profile__right a 
+{
+    font-size: 14px!important;
+    margin-top: 5px;
+}
+.content__container {
+    display: grid;
+    grid-template-areas:
+    "skills__card"
+    "blog__card"
+    "hobby__card"
+    "experience__card";
+ 
+    gap: 7rem;
+    
+    }
+
+    .blog__card
+    {   
+        width: 413px;
+        height: auto;
+    }
+    .lead
+    {
+        width: 323px;
+    }
+
+.blog__center
+{
+    flex-direction: column;
+
+}
+.blog__center h2 {
+   
+    font-size: 19px;
+}
+.experience__card
+{
+    width: 421px;
+    height: auto;
+}
+
+.brand__detalis p 
+{
+    width: 223px;
+}
+
+
+
+.h{
+    width: 416px;
+    height: 135px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding-top:25px;
+    padding-left: 10px;
+    
+    }
+
+    .grid__3 
+    {
+      
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      align-items: center;
+    }
+  
+
+.panels{
+    background-color: #f2f2f2;
+
+    min-height:200px;
+    width: 346px;
+
+    border-radius: 12px;
+    overflow:hidden;
+    /* padding:2rem;   */
+    margin-top: 40px;
+  }
+
+/* Copyright  */
+.copyright__container
+{
+    width: 100%;
+    padding: 0 2rem;
+}
+.copyright__container p{
+
+padding-bottom:15px;
+padding-left: 25px;
+text-align: left;
+
+}
+
+
+}
